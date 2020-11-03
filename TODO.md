@@ -3,13 +3,13 @@
 
 - [x] (Setup) Docker for development
 - [x] (Setup) Rails
+- [x] (Setup) Rubocop
 - [ ] (Setup) Brakeman - security linters
 - [ ] (Setup) Capybara - features testing 
 - [ ] (Setup) Clock (Cron)
 - [ ] (Setup) Devise
 - [ ] (Setup) Devise Token Auth
 - [ ] (Setup) ESlint, style-lint
-- [ ] (Setup) Rubocop
 - [ ] (Setup) SimpleCov
 - [ ] (Setup) Slim
 - [ ] (Setup) Unit testing 

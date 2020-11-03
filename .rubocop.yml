@@ -1,0 +1,28 @@
+require:
+  - rubocop-performance
+  - rubocop-rails
+
+Style/Documentation:
+  Enabled: false
+
+Layout/LineLength:
+  Max: 120
+
+AllCops:
+  NewCops: enable
+  Exclude:
+    - 'bin/*'
+    - 'node_modules/**/*'
+    - 'config/**/*'
+    - 'Gemfile'
+    - 'Rakefile'
+
+Naming/MemoizedInstanceVariableName:
+  EnforcedStyleForLeadingUnderscores: optional
+
+Lint/AmbiguousBlockAssociation:
+  Exclude:
+    - 'spec/**/*'
+
+Metrics/MethodLength:
+  Max: 15

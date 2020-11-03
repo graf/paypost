@@ -10,6 +10,9 @@ gem 'rails', '~> 6.0.3', '>= 6.0.3.4'
 
 group :development, :test do
   gem 'byebug'
+  gem 'rubocop', require: false
+  gem 'rubocop-performance', require: false
+  gem 'rubocop-rails', require: false
 end
 
 group :development do
