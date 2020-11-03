@@ -37,3 +37,4 @@ module Paypost
 end
 
 require 'service'
+require 'operation'

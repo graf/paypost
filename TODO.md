@@ -9,6 +9,8 @@
 - [x] (Core) Create Transaction(s) models
 - [x] (Core) Create Merchant model 
 - [X] (Core) Implement Transaction(s) logic
+- [x] (Core) Implement Transaction(s) Use Cases
+- [ ] (Core) Create Payments API controller
 - [ ] (Setup) Brakeman - security linters
 - [ ] (Setup) Capybara - features testing 
 - [ ] (Setup) Clock (Cron)
@@ -17,7 +19,6 @@
 - [ ] (Setup) ESlint, style-lint
 - [ ] (Setup) Slim
 - [ ] (Setup) Unit testing 
-- [ ] (Core) Create Payments API controller
 - [ ] (Merchant) Create Transactions UI
 - [ ] (Admin) Create Merchants UI (Index/Create/Edit)
 - [ ] (Admin) Create Merchants controller

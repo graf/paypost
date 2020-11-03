@@ -1,2 +1,16 @@
 en:
   hello: "Hello world"
+
+  activemodel:
+    errors:
+      models:
+        api/v1/payments/process_payment:
+          unknown_attribute: Unknown paramenter '%{attribute}'
+        api/v1/payments/charge/contract:
+          attributes:
+            authorize:
+              invalid_state: Can't process charge with this authorize
+            amount:
+              invalid: Incorrect amount
+            uuid:
+              not_unique: Transactions with this UUID has been already processed
