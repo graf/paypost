@@ -17,10 +17,10 @@
 - [x] (Merchant) Create Transactions UI
 - [x] (Admin) Create Merchants UI (Index/Edit/Destroy)
 - [x] (Setup) Capybara - features testing 
+- [x] (Misc) Create cleanup worker 
+- [x] (Setup) Clock (Cron)
 - [ ] (Setup) Brakeman - security linters
-- [ ] (Setup) Clock (Cron)
 - [ ] (Setup) ESlint, style-lint
 - [ ] (Setup) Unit testing 
 - [ ] (Mics) Setup Login page
-- [ ] (Misc) Create cleanup worker 
 - [ ] (Misc) Create rake task for import merchants and users

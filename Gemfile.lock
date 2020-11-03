@@ -71,6 +71,9 @@ GEM
       rack-test (>= 0.6.3)
       regexp_parser (~> 1.5)
       xpath (~> 3.2)
+    clockwork (2.0.4)
+      activesupport
+      tzinfo
     concurrent-ruby (1.1.7)
     crass (1.0.6)
     devise (4.7.3)
@@ -252,6 +255,7 @@ PLATFORMS
 DEPENDENCIES
   byebug
   capybara
+  clockwork
   devise
   devise_token_auth
   factory_bot_rails

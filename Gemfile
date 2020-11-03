@@ -11,6 +11,7 @@ gem 'rails', '~> 6.0.3', '>= 6.0.3.4'
 gem 'devise'
 gem 'devise_token_auth'
 gem 'slim-rails'
+gem 'clockwork'
 
 group :development, :test do
   gem 'byebug'
