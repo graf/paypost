@@ -5,13 +5,13 @@
 - [x] (Setup) Rails
 - [x] (Setup) Rubocop
 - [x] (Setup) RSpec
+- [x] (Setup) SimpleCov
 - [ ] (Setup) Brakeman - security linters
 - [ ] (Setup) Capybara - features testing 
 - [ ] (Setup) Clock (Cron)
 - [ ] (Setup) Devise
 - [ ] (Setup) Devise Token Auth
 - [ ] (Setup) ESlint, style-lint
-- [ ] (Setup) SimpleCov
 - [ ] (Setup) Slim
 - [ ] (Setup) Unit testing 
 - [ ] (Core) Create Payments API controller
