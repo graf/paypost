@@ -13,11 +13,11 @@
 - [x] (Core) Create Payments API controller
 - [x] (Setup) Devise
 - [x] (Setup) Devise Token Auth
+- [x] (Setup) Slim
 - [ ] (Setup) Brakeman - security linters
 - [ ] (Setup) Capybara - features testing 
 - [ ] (Setup) Clock (Cron)
 - [ ] (Setup) ESlint, style-lint
-- [ ] (Setup) Slim
 - [ ] (Setup) Unit testing 
 - [ ] (Merchant) Create Transactions UI
 - [ ] (Admin) Create Merchants UI (Index/Create/Edit)
