@@ -14,12 +14,12 @@
 - [x] (Setup) Devise
 - [x] (Setup) Devise Token Auth
 - [x] (Setup) Slim
+- [ ] (Merchant) Create Transactions UI
 - [ ] (Setup) Brakeman - security linters
 - [ ] (Setup) Capybara - features testing 
 - [ ] (Setup) Clock (Cron)
 - [ ] (Setup) ESlint, style-lint
 - [ ] (Setup) Unit testing 
-- [ ] (Merchant) Create Transactions UI
 - [ ] (Admin) Create Merchants UI (Index/Create/Edit)
 - [ ] (Admin) Create Merchants controller
 - [ ] (Mics) Setup Login page

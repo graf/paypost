@@ -1,6 +1,7 @@
 en:
   hello: "Hello world"
   controllers:
+    unauthorized: You are not authorized to access this page
     api:
       v1:
         unauthorized: You are not authorized to process this request
@@ -18,3 +19,9 @@ en:
               invalid: Incorrect amount
             uuid:
               not_unique: Transactions with this UUID has been already processed
+
+  merchants:
+    sessions:
+      new:
+        sign_in: Sign In as Merchant
+
