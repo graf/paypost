@@ -14,14 +14,13 @@
 - [x] (Setup) Devise
 - [x] (Setup) Devise Token Auth
 - [x] (Setup) Slim
-- [ ] (Merchant) Create Transactions UI
+- [x] (Merchant) Create Transactions UI
+- [x] (Admin) Create Merchants UI (Index/Edit/Destroy)
 - [ ] (Setup) Brakeman - security linters
 - [ ] (Setup) Capybara - features testing 
 - [ ] (Setup) Clock (Cron)
 - [ ] (Setup) ESlint, style-lint
 - [ ] (Setup) Unit testing 
-- [ ] (Admin) Create Merchants UI (Index/Create/Edit)
-- [ ] (Admin) Create Merchants controller
 - [ ] (Mics) Setup Login page
 - [ ] (Misc) Create cleanup worker 
 - [ ] (Misc) Create rake task for import merchants and users

@@ -1,0 +1,27 @@
+table.table.table-striped
+  thead.thead-dark
+    tr
+      th Email
+      th Name
+      th Description
+      th Balance
+      th Created
+      th Transactions
+      th Actions
+  - @presenter.merchants.each do |t|
+    tr
+      td.align-middle
+        = t[:email]
+      td.align-middle
+        = t[:name]
+      td.align-middle
+        = truncate(t[:description])
+      td.align-middle
+        = number_to_currency(t[:balance])
+      td.align-middle
+        = time_ago_in_words(t[:created_at])
+      td.align-middle
+        a href=admins_transactions_path(merchant_id: t[:id]) Transactions
+      td
+        a.btn.btn-success href=edit_admins_merchant_path(id: t[:id]) Edit
+        = button_to("Destroy",  admins_merchant_path(id: t[:id]), method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-danger', form_class: 'd-inline')

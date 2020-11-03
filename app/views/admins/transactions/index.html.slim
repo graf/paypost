@@ -1,0 +1,25 @@
+- if @presenter.transactions.any?
+  table.table
+    thead.thead-dark
+      tr
+        th = t('views.admins.transactions.index.transactions_table.header.type')
+        th = t('views.admins.transactions.index.transactions_table.header.uuid')
+        th = t('views.admins.transactions.index.transactions_table.header.amount')
+        th = t('views.admins.transactions.index.transactions_table.header.status')
+        th = t('views.admins.transactions.index.transactions_table.header.created_at')
+    tbody
+    - @presenter.transactions.each do |t|
+      tr class=t[:row_style]
+        td
+          = t[:type]
+        td
+          = t[:uuid]
+        td
+          = t[:amount]
+        td
+          = t[:status]
+        td
+          = l(t[:created_at])
+- else
+  .display-4.text-center
+    | There is not transactions yet

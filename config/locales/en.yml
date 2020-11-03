@@ -5,10 +5,24 @@ en:
     api:
       v1:
         unauthorized: You are not authorized to process this request
+    destroy:
+      success: 'Record successfully destroyed'
+    update:
+      flash:
+        success: 'The record successfully updated'
+        error: 'Some fields are not correct. Please fix ant try again'
+    create:
+      flash:
+        success: 'A new record successfully created'
+        error: 'Some fields are not correct. Please fix ant try again'
 
   activemodel:
     errors:
       models:
+        admins/merchants/destroy:
+          attributes:
+            base:
+              dependent_transactions: Can't remove merhchant with transactions
         api/v1/payments/process_payment:
           unknown_attribute: Unknown paramenter '%{attribute}'
         api/v1/payments/charge/contract:
@@ -24,4 +38,9 @@ en:
     sessions:
       new:
         sign_in: Sign In as Merchant
+
+  admins:
+    sessions:
+      new:
+        sign_in: Sign In as Admin
 

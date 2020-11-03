@@ -5,6 +5,10 @@ class ApplicationPolicy
     @user = user
   end
 
+  def admin?
+    @user.is_a?(Admin)
+  end
+
   def merchant?
     @user.is_a?(Merchant)
   end

@@ -1,5 +1,11 @@
 Rails.application.routes.draw do
+  devise_for :admins
   devise_for :merchants
+
+  namespace :admins do
+    resources :merchants
+    resources :transactions, only: [:index]
+  end
 
   namespace :merchants do
     resources :transactions, only: [:index]
