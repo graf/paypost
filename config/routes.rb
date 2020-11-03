@@ -2,6 +2,8 @@ Rails.application.routes.draw do
   devise_for :admins
   devise_for :merchants
 
+  root to: 'home#index'
+
   namespace :admins do
     resources :merchants
     resources :transactions, only: [:index]

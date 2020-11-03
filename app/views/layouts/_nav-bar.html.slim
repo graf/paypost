@@ -1,0 +1,16 @@
+nav.navbar.navbar-expand-md.navbar-dark.bg-dark
+  a.navbar-brand href=root_path PayPost
+  button.navbar-toggler aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label=("Toggle navigation") data-target="#navbarsExampleDefault" data-toggle="collapse" type="button"
+    span.navbar-toggler-icon
+  #navbarsExampleDefault.collapse.navbar-collapse
+    ul.navbar-nav.mr-auto
+      - if admin_signed_in?
+        li.nav-item class=('active' if nav_active?(controller: 'admins/merchants'))
+          a.nav-link href=admins_merchants_path Merchants
+      - if merchant_signed_in?
+        li.nav-item class=('active' if nav_active?(controller: 'merchants/transactions'))
+          a.nav-link href=merchants_transactions_path Transactions
+    ul.navbar-nav.ml-auto
+      - if merchant_signed_in? || admin_signed_in?
+        li.nav-item
+          = link_to 'Sign Out', destroy_merchant_session_path, method: :delete, class: 'nav-link'
