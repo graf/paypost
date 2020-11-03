@@ -6,6 +6,9 @@
 - [x] (Setup) Rubocop
 - [x] (Setup) RSpec
 - [x] (Setup) SimpleCov
+- [x] (Core) Create Transaction(s) models
+- [x] (Core) Create Merchant model 
+- [ ] (Core) Implement Transaction(s) logic
 - [ ] (Setup) Brakeman - security linters
 - [ ] (Setup) Capybara - features testing 
 - [ ] (Setup) Clock (Cron)
@@ -15,9 +18,6 @@
 - [ ] (Setup) Slim
 - [ ] (Setup) Unit testing 
 - [ ] (Core) Create Payments API controller
-- [ ] (Core) Create Transaction(s) model
-- [ ] (Core) Implement Transaction(s) logic
-- [ ] (Merchant) Create Merchant model 
 - [ ] (Merchant) Create Transactions UI
 - [ ] (Admin) Create Merchants UI (Index/Create/Edit)
 - [ ] (Admin) Create Merchants controller
