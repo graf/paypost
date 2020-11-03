@@ -15,4 +15,11 @@ class Merchant < ApplicationRecord
             uniqueness: true
   validates :name,
             presence: true
+
+  # rubocop:disable Rails/SkipsModelValidations
+  # Valid Rails-way for atomic update numeric column
+  def increment_total_transaction_sum(by)
+    Merchant.update_counters(id, total_transaction_sum: by)
+  end
+  # rubocop:enable Rails/SkipsModelValidations
 end

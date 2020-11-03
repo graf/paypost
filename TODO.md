@@ -8,7 +8,7 @@
 - [x] (Setup) SimpleCov
 - [x] (Core) Create Transaction(s) models
 - [x] (Core) Create Merchant model 
-- [ ] (Core) Implement Transaction(s) logic
+- [X] (Core) Implement Transaction(s) logic
 - [ ] (Setup) Brakeman - security linters
 - [ ] (Setup) Capybara - features testing 
 - [ ] (Setup) Clock (Cron)
