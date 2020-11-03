@@ -1,6 +1,7 @@
 require:
   - rubocop-performance
   - rubocop-rails
+  - rubocop-rspec
 
 Style/Documentation:
   Enabled: false
@@ -26,3 +27,27 @@ Lint/AmbiguousBlockAssociation:
 
 Metrics/MethodLength:
   Max: 15
+
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/**/*'
+
+RSpec/VerifiedDoubles:
+  Enabled: false
+
+RSpec/MultipleExpectations:
+  Max: 2
+  Exclude:
+    - 'spec/controllers/**/*'
+
+RSpec/ExampleLength:
+  Exclude:
+    - 'spec/controllers/**/*'
+    - 'spec/features/**/*'
+
+RSpec/ImplicitSubject:
+  Exclude:
+    - 'spec/controllers/**/*'
+
+RSpec/MultipleMemoizedHelpers:
+  Enabled: false

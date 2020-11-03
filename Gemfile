@@ -10,11 +10,19 @@ gem 'rails', '~> 6.0.3', '>= 6.0.3.4'
 
 group :development, :test do
   gem 'byebug'
+  gem 'factory_bot_rails'
+  gem 'rspec-rails', '~> 4.0.1'
   gem 'rubocop', require: false
   gem 'rubocop-performance', require: false
   gem 'rubocop-rails', require: false
+  gem 'rubocop-rspec', require: false
 end
 
 group :development do
   gem 'web-console', '>= 3.3.0'
+end
+
+group :test do
+  gem 'rails-controller-testing'
+  gem 'shoulda-matchers', '~> 4.0'
 end

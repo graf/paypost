@@ -4,6 +4,7 @@
 - [x] (Setup) Docker for development
 - [x] (Setup) Rails
 - [x] (Setup) Rubocop
+- [x] (Setup) RSpec
 - [ ] (Setup) Brakeman - security linters
 - [ ] (Setup) Capybara - features testing 
 - [ ] (Setup) Clock (Cron)
