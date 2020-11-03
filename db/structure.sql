@@ -58,9 +58,12 @@ CREATE TABLE public.merchants (
     description character varying,
     status public.merchants_status DEFAULT 'active'::public.merchants_status NOT NULL,
     total_transaction_sum numeric DEFAULT 0.0 NOT NULL,
-    encrypted_password character varying DEFAULT ''::character varying NOT NULL,
     created_at timestamp(6) without time zone NOT NULL,
-    updated_at timestamp(6) without time zone NOT NULL
+    updated_at timestamp(6) without time zone NOT NULL,
+    encrypted_password character varying DEFAULT ''::character varying NOT NULL,
+    provider character varying DEFAULT 'email'::character varying NOT NULL,
+    uid character varying DEFAULT ''::character varying NOT NULL,
+    tokens json
 );
 
 
@@ -184,6 +187,13 @@ CREATE UNIQUE INDEX index_merchants_on_email ON public.merchants USING btree (em
 
 
 --
+-- Name: index_merchants_on_uid_and_provider; Type: INDEX; Schema: public; Owner: -
+--
+
+CREATE UNIQUE INDEX index_merchants_on_uid_and_provider ON public.merchants USING btree (uid, provider);
+
+
+--
 -- Name: index_transactions_on_merchant_id; Type: INDEX; Schema: public; Owner: -
 --
 
@@ -235,6 +245,7 @@ SET search_path TO "$user", public;
 
 INSERT INTO "schema_migrations" (version) VALUES
 ('20201028185137'),
-('20201029071439');
+('20201029071439'),
+('20201103224645');
 
 

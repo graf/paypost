@@ -11,11 +11,11 @@
 - [X] (Core) Implement Transaction(s) logic
 - [x] (Core) Implement Transaction(s) Use Cases
 - [x] (Core) Create Payments API controller
+- [x] (Setup) Devise
+- [x] (Setup) Devise Token Auth
 - [ ] (Setup) Brakeman - security linters
 - [ ] (Setup) Capybara - features testing 
 - [ ] (Setup) Clock (Cron)
-- [ ] (Setup) Devise
-- [ ] (Setup) Devise Token Auth
 - [ ] (Setup) ESlint, style-lint
 - [ ] (Setup) Slim
 - [ ] (Setup) Unit testing 

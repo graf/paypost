@@ -5,12 +5,13 @@ require 'rails_helper'
 describe Api::V1::PaymentsController, type: :controller do
   let(:merchant) { create :merchant }
 
+  before { sign_in_merchant(merchant) }
+
   describe '#create' do
     before { allow(Api::V1::Payments::Create).to receive(:call).and_return(operation) }
 
     let(:params) do
       {
-        merchant_id: merchant.id,
         type: :authorize,
         amount: 300,
         uuid: 'test',

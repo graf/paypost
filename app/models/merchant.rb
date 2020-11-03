@@ -1,6 +1,9 @@
 # frozen_string_literal: true
 
 class Merchant < ApplicationRecord
+  devise :database_authenticatable
+  include DeviseTokenAuth::Concerns::User
+
   enum status: {
     active: 'active',
     inactive: 'inactive'

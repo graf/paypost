@@ -10,7 +10,6 @@ class CreateMerchants < ActiveRecord::Migration[6.0]
       t.string :description
       t.column :status, :merchants_status, default: :active, null: false
       t.decimal :total_transaction_sum, null: false, default: 0
-      t.string :encrypted_password, null: false, default: ''
 
       t.index :email, unique: true
 

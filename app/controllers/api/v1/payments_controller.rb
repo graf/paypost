@@ -24,10 +24,6 @@ module Api
           :type
         )
       end
-
-      def current_merchant
-        Merchant.find_by(id: params[:merchant_id])
-      end
     end
   end
 end
