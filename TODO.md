@@ -16,8 +16,8 @@
 - [x] (Setup) Slim
 - [x] (Merchant) Create Transactions UI
 - [x] (Admin) Create Merchants UI (Index/Edit/Destroy)
+- [x] (Setup) Capybara - features testing 
 - [ ] (Setup) Brakeman - security linters
-- [ ] (Setup) Capybara - features testing 
 - [ ] (Setup) Clock (Cron)
 - [ ] (Setup) ESlint, style-lint
 - [ ] (Setup) Unit testing 
