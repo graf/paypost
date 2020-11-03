@@ -10,7 +10,7 @@
 - [x] (Core) Create Merchant model 
 - [X] (Core) Implement Transaction(s) logic
 - [x] (Core) Implement Transaction(s) Use Cases
-- [ ] (Core) Create Payments API controller
+- [x] (Core) Create Payments API controller
 - [ ] (Setup) Brakeman - security linters
 - [ ] (Setup) Capybara - features testing 
 - [ ] (Setup) Clock (Cron)

@@ -2,6 +2,7 @@
 
 require 'operation/errors/error'
 require 'operation/errors/not_authorized_error'
+require 'operation/controller_helpers'
 
 module Operation
   module HookCall

@@ -1,5 +1,9 @@
 en:
   hello: "Hello world"
+  controllers:
+    api:
+      v1:
+        unauthorized: You are not authorized to process this request
 
   activemodel:
     errors:
