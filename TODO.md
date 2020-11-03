@@ -2,6 +2,7 @@
 # TODO
 
 - [x] (Setup) Docker for development
+- [x] (Setup) Rails
 - [ ] (Setup) Brakeman - security linters
 - [ ] (Setup) Capybara - features testing 
 - [ ] (Setup) Clock (Cron)
