@@ -19,8 +19,8 @@
 - [x] (Setup) Capybara - features testing 
 - [x] (Misc) Create cleanup worker 
 - [x] (Setup) Clock (Cron)
+- [x] (Misc) Create rake task for import merchants and users
 - [ ] (Setup) Brakeman - security linters
 - [ ] (Setup) ESlint, style-lint
 - [ ] (Setup) Unit testing 
 - [ ] (Mics) Setup Login page
-- [ ] (Misc) Create rake task for import merchants and users
