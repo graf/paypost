@@ -22,5 +22,9 @@
 - [x] (Misc) Create rake task for import merchants and users
 - [ ] (Setup) Brakeman - security linters
 - [ ] (Setup) ESlint, style-lint
-- [ ] (Setup) Unit testing 
-- [ ] (Mics) Setup Login page
+- [ ] (Setup) Move background jobs to sidekiq
+- [ ] (Polishing) YARD
+- [ ] (Polishing) Improve Test Coverage
+- [ ] (Polishing) Improve i18n
+- [ ] (Polishing) Dry UI using components
+
